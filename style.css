@@ -1,0 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Css.Reset*/
+
+body{
+    background-image: url(imgs/AdobeStock_470816395.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    height: 99.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxCalc{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 5px;
+
+}
+
+#capital,#taxa{
+    margin-bottom: 3%;
+}
+
+#tempo{
+    margin-bottom: 8.6%;
+}
+
+label{
+    margin-bottom: 1.5%;
+}
+
+input{
+    padding: 2%;
+    outline: none;
+    background-color: #001c4b;
+    border: none;
+    color: aliceblue;
+    border-radius: 6px;
+}
+
+input:focus{
+    border: 2px solid aliceblue;
+}
+
+button{
+    padding:2.5%;
+    background-color: #b32ef7;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.resposta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    
+
+}
